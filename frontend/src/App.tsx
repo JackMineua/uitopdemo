@@ -26,7 +26,7 @@ interface ActionBackup {
   timerId: number;
 }
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://uitopdemo.onrender.com';
 
 export default function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
